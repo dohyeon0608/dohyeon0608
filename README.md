@@ -3,7 +3,24 @@
 
 ## 하는거
 - **마인크래프트 JE** Kotlin을 이용한 Paper 플러그인 제작
+```kotlin
+class HelloWorld : JavaPlugin() {
+    override fun onEnable() {
+        server.logger.info("Hello World!")
+    }
+}
+```
 - **마인크래프트 BE** function을 이용한 애드온 제작 (커맨드) / PHP를 이용한 PMMP 플러그인 제작
+```mcfunction
+tellraw @a {"rawtext":[{"text":"Hello World!"}]}
+```
+```php
+class HelloWorld extends PluginBase {
+    public function onEnable() {
+        $this->getLogger()->info("Hello World!");
+    }
+}
+```
 
 <!---
 - 👋 안녕하세요, 마인크래프트 플러그인 초보입니다.
