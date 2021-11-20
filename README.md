@@ -3,6 +3,7 @@
 
 ## 하는거
 - **마인크래프트 JE** Kotlin을 이용한 Paper 플러그인 제작
+<!--
 ```kotlin
 class HelloWorld : JavaPlugin() {
     override fun onEnable() {
@@ -10,7 +11,9 @@ class HelloWorld : JavaPlugin() {
     }
 }
 ```
+--->
 - **마인크래프트 BE** function을 이용한 애드온 제작 (커맨드) / PHP를 이용한 PMMP 플러그인 제작
+<!--
 ```mcfunction
 tellraw @a {"rawtext":[{"text":"Hello World!"}]}
 ```
@@ -21,6 +24,9 @@ class HelloWorld extends PluginBase {
     }
 }
 ```
+--->
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dohyeon0608&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 <!---
 - 👋 안녕하세요, 마인크래프트 플러그인 초보입니다.
