@@ -27,6 +27,7 @@ class HelloWorld extends PluginBase {
 --->
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dohyeon0608&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dohyeon0608)](https://github.com/anuraghazra/github-readme-stats)
 
 <!---
 - 👋 안녕하세요, 마인크래프트 플러그인 초보입니다.
